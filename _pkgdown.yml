@@ -2,7 +2,7 @@ url: https://erasmuslab.github.io/MANGO
 
 template:
   bootstrap: 5
-  theme: auto
+  bootswatch: darkly
 navbar:
   structure:
     left:  [home, reference, articles, news]
