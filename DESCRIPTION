@@ -1,0 +1,30 @@
+Package: BioconductorMANGO
+Title: What the Package Does (One Line, Title Case)
+Version: 0.99.0
+Authors@R: c(person("Seung Gwa", "Park",
+    email = "madirene@snu.ac.kr",
+    role = c("aut", "cre")))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    org.Hs.eg.db,
+    org.Mm.eg.db,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+biocViews: GeneSetEnrichment, GO, Annotation, Software
+VignetteBuilder: knitr
+Imports: 
+    circlize,
+    clusterProfiler,
+    dplyr,
+    forcats,
+    ggplot2,
+    magrittr,
+    pheatmap,
+    rlang,
+    stringr

@@ -1,0 +1,23 @@
+---
+title: "MANGO-intro"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MANGO-intro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BioconductorMANGO)
+```
+
+```{r sessioninfo, echo=FALSE}
+sessionInfo()
+```
