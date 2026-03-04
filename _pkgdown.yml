@@ -6,7 +6,7 @@ template:
 navbar:
   structure:
     left:  [home, reference, articles, news]
-    right: [github]
+    right: [lightswitch,github]
   components:
     github:
       icon: fa-github
