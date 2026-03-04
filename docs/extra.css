@@ -1,5 +1,5 @@
 /* pkgdown navbar overlap fix (Bootstrap 5) */
-:root { --mango-nav-offset: 84px; }  /* <- 필요하면 72~100 사이로 조절 */
+:root { --mango-nav-offset: 56px; }  /* <- 필요하면 72~100 사이로 조절 */
 
 /* pkgdown uses .navbar (often fixed-top). Give the page breathing room */
 body {
