@@ -1,10 +1,10 @@
 Package: MANGO
-Title: What the Package Does (One Line, Title Case)
+Title: MANGO: Ontology-Guided Tree Structuring and Multi-Case Integration for GO Enrichment.
 Version: 0.99.0
 Authors@R: c(person("Seung Gwa", "Park",
     email = "madirene@snu.ac.kr",
     role = c("aut", "cre")))
-Description: What the package does (one paragraph).
+Description: MANGO is an R package for Gene Ontology (GO) Biological Process enrichment analysis that reduces redundancy in top-ranked results by restructuring enriched terms into ontology-guided term trees based on the GO DAG. It defines and filters “active trees” using coverage/consistency criteria to suppress structurally driven false positives arising from hierarchical dependencies. MANGO supports single- and multiple-case study designs by integrating enrichment outputs across conditions, providing scoring options and visualization utilities to summarize common and condition-specific biological processes. Optional features include ORA-style soft filtering and fold-change-aware weighting for tree and term prioritization.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
