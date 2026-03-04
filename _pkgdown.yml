@@ -38,9 +38,10 @@ navbar:
 
     - text: "Reference"
       href: reference/index.html
-
+  
   right:
     - icon: fa-home
+      aria-label: Home
       href: index.html
     - icon: fa-github
       aria-label: GitHub
