@@ -35,9 +35,11 @@ This release provides the following key features:
   interpretation and reporting.
 
 Install:
-[Install](https://erasmuslab.github.io/MANGO/articles/MANGO-install.md)\
+[Install](https://erasmuslab.github.io/MANGO/articles/MANGO-install.md)
+
 Data Preprocessing & Analysis: [Single case & Multiple
 case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
+
 Visualization: [Single case & Multiple
 case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
 

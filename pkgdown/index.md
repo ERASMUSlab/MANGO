@@ -20,5 +20,7 @@ This release provides the following key features:
 
 
 Install: [Install](articles/MANGO-install.html)  
+
 Data Preprocessing & Analysis: [Single case & Multiple case](articles/MANGO-intro.html)
+
 Visualization: [Single case & Multiple case](articles/MANGO-intro.html)
