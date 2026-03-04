@@ -10,7 +10,7 @@ This release provides the following key features:
   MANGO reorganizes enriched BP terms into tree-structured groups based on GO hierarchy and term relationships, helping prevent near-duplicate terms from dominating the top ranks.
 
 - **Active-tree filtering to suppress structural false positives:**  
-  Because GO is hierarchical, significant-looking terms can appear due to dependency rather than true signal. MANGO defines and filters **“active trees”** using coverage/consistency criteria (e.g., hit-term count and hit ratio) to downweight structurally driven results.
+  Because GO is hierarchical, significant-looking terms can appear due to dependency rather than true signal. MANGO defines and filters **active trees** using coverage/consistency criteria (e.g., hit-term count and hit ratio) to downweight structurally driven results.
 
 - **Single-case and multiple-case workflows:**  
   MANGO supports both single-condition summaries and **multiple-case designs** by integrating enrichment outputs across conditions. This enables discovery of **common vs condition-specific** biological processes and facilitates trend/pattern interpretation across dose, time-course, or cohort comparisons.
@@ -19,6 +19,6 @@ This release provides the following key features:
   MANGO provides plotting functions to summarize active trees and term–gene relationships, including single- and multiple-case views for interpretation and reporting.
 
 
-- Install: [Install](articles/MANGO-install.html)  
-- Data Preprocessing & Analysis: [Single case & Multiple case](articles/MANGO-intro.html)
-- Visualization: [Single case & Multiple case](articles/MANGO-intro.html)
+Install: [Install](articles/MANGO-install.html)  
+Data Preprocessing & Analysis: [Single case & Multiple case](articles/MANGO-intro.html)
+Visualization: [Single case & Multiple case](articles/MANGO-intro.html)

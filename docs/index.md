@@ -19,7 +19,7 @@ This release provides the following key features:
 - **Active-tree filtering to suppress structural false positives:**\
   Because GO is hierarchical, significant-looking terms can appear due
   to dependency rather than true signal. MANGO defines and filters
-  **“active trees”** using coverage/consistency criteria (e.g., hit-term
+  **active trees** using coverage/consistency criteria (e.g., hit-term
   count and hit ratio) to downweight structurally driven results.
 
 - **Single-case and multiple-case workflows:**\
@@ -34,11 +34,9 @@ This release provides the following key features:
   term–gene relationships, including single- and multiple-case views for
   interpretation and reporting.
 
-- Install:
-  [Install](https://erasmuslab.github.io/MANGO/articles/MANGO-install.md)\
-
-- Data Preprocessing & Analysis: [Single case & Multiple
-  case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
-
-- Visualization: [Single case & Multiple
-  case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
+Install:
+[Install](https://erasmuslab.github.io/MANGO/articles/MANGO-install.md)\
+Data Preprocessing & Analysis: [Single case & Multiple
+case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
+Visualization: [Single case & Multiple
+case](https://erasmuslab.github.io/MANGO/articles/MANGO-intro.md)
