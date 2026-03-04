@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(BioconductorMANGO)
+library(MANGO)
 
-test_check("BioconductorMANGO")
+test_check("MANGO")
