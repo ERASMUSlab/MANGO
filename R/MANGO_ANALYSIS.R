@@ -59,6 +59,10 @@ MANGO_ANALYSIS = function(filepath,
 			  dynamic_analyisis = "F",
                           preprocessing = "F"){
 
+    print("Fixed path is")
+    print(filepath)
+    setwd(filepath)
+
     DEG_list_path = paste0(filepath,"/",DEG_list_name)
     DEG_list_pathDF = as.data.frame(DEG_list_path)
 
