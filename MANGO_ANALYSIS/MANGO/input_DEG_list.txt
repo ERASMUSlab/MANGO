@@ -1,0 +1,5 @@
+/data3/psg/NGS_2026/gitMANGO/MANGO_ANALYSIS/MANGO/DEG_result/condition_DAY4_vs_DAY0_0.05_1.5/DEG_UP.txt
+/data3/psg/NGS_2026/gitMANGO/MANGO_ANALYSIS/MANGO/DEG_result/condition_DAY7_vs_DAY0_0.05_1.5/DEG_UP.txt
+/data3/psg/NGS_2026/gitMANGO/MANGO_ANALYSIS/MANGO/DEG_result/condition_DAY10_vs_DAY0_0.05_1.5/DEG_UP.txt
+/data3/psg/NGS_2026/gitMANGO/MANGO_ANALYSIS/MANGO/DEG_result/condition_DAY14_vs_DAY0_0.05_1.5/DEG_UP.txt
+/data3/psg/NGS_2026/gitMANGO/MANGO_ANALYSIS/MANGO/DEG_result/condition_DAY21_vs_DAY0_0.05_1.5/DEG_UP.txt
