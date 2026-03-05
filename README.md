@@ -34,8 +34,8 @@ bioconductor-dose bioconductor-enrichplot bioconductor-clusterprofiler bioconduc
 bioconductor-org.mm.eg.db 
 
 mkdir path_to_MANGOanalysis
-wget -P path_to_MANGOanalysis https://github.com/user-attachments/files/25759829/MANGO_FORMAT.tar.gz
-### ex) wget -P /home/RNA/gitMANGO/ https://github.com/user-attachments/files/25759829/MANGO_FORMAT.tar.gz
+wget -P path_to_MANGOanalysis https://github.com/user-attachments/files/25766902/MANGO_FORMAT.tar.gz
+### ex) wget -P /home/RNA/gitMANGO/ https://github.com/user-attachments/files/25766902/MANGO_FORMAT.tar.gz
 
 cd path_to_MANGOanalysis
 pigz -dc -p 4 MANGO_FORMAT.tar.gz | tar -xf -
