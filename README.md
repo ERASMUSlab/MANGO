@@ -15,11 +15,9 @@ MANGO is an R package for Gene Ontology (GO) Biological Process enrichment analy
 
 ## Installation
 
-### Linux / macOS (terminal)
+### Linux / macOS (Using conda OR micromamba at terminal)
 
 ```bash
-## Using conda OR micromamba
-
 micromamba create -n MANGO
 micromamba activate MANGO
 
