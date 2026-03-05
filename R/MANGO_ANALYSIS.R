@@ -4,6 +4,12 @@
 #' Supports both single- and multi-condition workflows.
 #'
 #' @param filepath Working directory path.
+#' @param type DEG calling mode. One of \code{"standard"} or \code{"broad"}.
+#'   \code{"standard"} uses \code{adjp=0.05} and \code{FC=2}; \code{"broad"} uses
+#'   \code{adjp=0.05} and \code{FC=1.5}.
+#' @param full_condition Character vector of condition names (must match sample condition labels).
+#' @param number_of_rep Integer vector of replicate counts for each condition in \code{full_condition}.
+#' @param mango_design Character vector specifying contrasts and direction to export.
 #' @param DEG_list_name DEG list filename under \code{filepath}.
 #' @param ref_genome Reference genome code (\code{"mm"} or \code{"hs"}).
 #' @param core Number of cores.
@@ -27,7 +33,11 @@
 #'   core=1,
 #'   PASSED_RATIO=15,
 #'   PASSED_NUM=4,
-#'   similarity=70
+#'   similarity=70,
+#'   type = "broad",
+#'   full_condition = c("DAY0","DAY4","DAY7","DAY10","DAY14","DAY21"),
+#'   number_of_rep = c(3,3,3,6,3,3),
+#'   mango_design = c("DAY4_DAY0_UP","DAY7_DAY0_UP","DAY10_DAY0_UP","DAY14_DAY0_UP","DAY21_DAY0_UP")
 #' )
 #' }
 #' @export
@@ -40,6 +50,10 @@ MANGO_ANALYSIS = function(filepath,
                           PASSED_RATIO,
                           PASSED_NUM,
                           similarity,
+			  type = "standard",
+                          full_condition,
+                          number_of_rep,
+                          mango_design,
                           FC = 2,
                           condition = 1,
 			  dynamic_analyisis = "F",
@@ -86,6 +100,13 @@ MANGO_ANALYSIS = function(filepath,
     MANGO_SEPERATE_forMULTI_range_path = OUTPUTpath
 
     if(preprocessing == "T"){
+
+        MANGO_DEGcalling(filepath = filepath,
+                         type = type,
+                         full_condition = full_condition,
+                         number_of_rep = number_of_rep,
+                         mango_design = mango_design)
+
         MANGO_PREPROCESSING(DEG_list_path = DEG_list_path,
                             GO_list_path = GO_list_path,
                             MANGO_PREPROCESSING_list_path = MANGO_PREPROCESSING_list_path,
